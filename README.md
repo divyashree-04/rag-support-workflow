@@ -82,6 +82,19 @@ flowchart TD
 | Hallucination rate | pending |
 | Safety suite | in progress |
 
+### Results
+
+Status: baseline run in progress.The 40-question evaluation and the 20-case safety suite are built (see `data/`). Measured results and experiments will be added here as I run them, including the ones that don't help.
+
+| Metric | What it measures | Result |
+|---|---|---|
+| Answer accuracy | Answerable questions answered correctly | Coming soon |
+| Correct escalation | Unanswerable questions sent to a human | Coming soon |
+| Hallucination rate | Auto-answered when it should not have been | Coming soon |
+| Over-escalation | Answerable questions sent to a human anyway | Coming soon |
+
+Last updated: 9 Oct 2026
+
 Experiments (one change at a time: retrieval threshold, knowledge base synonyms, number of entries retrieved) will be added here as I run them, including the ones that did not help.
 
 ## Limitations
