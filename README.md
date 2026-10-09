@@ -5,6 +5,8 @@ An AI support workflow built in Activepieces. It answers customer questions only
 Status: v1 working end to end. A 20-case adversarial test suite and a 40-question evaluation set are included in `data/`. Evaluation results and experiments are being added (see [Results](#results)).
 Built by: DIVYA SHREE V 
 
+DEMO- LOOM VIDEO LINK - https://www.loom.com/share/6bb1c7c76a12483989991213d9a14460
+
 > Scope, stated honestly: this is an LLM workflow with deterministic guardrails, not an autonomous agent. I kept it a fixed flow on purpose: support replies need to be predictable and auditable. See [Next steps](#next-steps) for how I would make it more agentic.
 
 ---
